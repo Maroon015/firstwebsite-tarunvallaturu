@@ -49,3 +49,23 @@ button{
     left: 75%;
     bottom: 92%;
 }
+
+
+.my-button{
+    position:fixed;
+    height: 8%;
+    width: 25%;
+    font-size: 25px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+    /*Hover Effect*/
+    .my-button:hover{
+        background-color: #0056b3;
+    }
+    /*Active Effect*/
+    .my-button:active{
+        transform: scale(0.9);
+    }
